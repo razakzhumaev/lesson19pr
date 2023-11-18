@@ -62,7 +62,8 @@ class Car {
       {required this.name,
       required this.power,
       required this.color,
-      this.price});
+      this.price,
+       });
 
   String carInfo() {
     return ('name == $name\npower == $power\ncolor == $color\nprice == ${price ?? '-'}');
